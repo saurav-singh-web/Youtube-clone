@@ -1,0 +1,11 @@
+{
+  "name": "youtube-clone-mern",
+  "version": "1.0.0",
+  "description": "Full Stack MERN YouTube Clone",
+  "main": "backend/src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "NODE_ENV=production npm start --prefix backend"
+  }
+}
